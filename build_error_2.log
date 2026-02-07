@@ -1,0 +1,21 @@
+
+> finity-webfrontend@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+unhandledRejection Error [PageNotFoundError]: Cannot find module for page: /_document
+    at getPagePath (C:\Users\Ilham\Desktop\Project\Finity\finity-webfrontend\node_modules\next\dist\server\require.js:94:15)
+    at requirePage (C:\Users\Ilham\Desktop\Project\Finity\finity-webfrontend\node_modules\next\dist\server\require.js:99:22)
+    at C:\Users\Ilham\Desktop\Project\Finity\finity-webfrontend\node_modules\next\dist\server\load-components.js:72:65
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\Ilham\Desktop\Project\Finity\finity-webfrontend\node_modules\next\dist\server\load-components.js:71:33)
+    at async Object.getDefinedNamedExports (C:\Users\Ilham\Desktop\Project\Finity\finity-webfrontend\node_modules\next\dist\build\utils.js:1291:24) {
+  type: 'PageNotFoundError',
+  code: 'ENOENT'
+}

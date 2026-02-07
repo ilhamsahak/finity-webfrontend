@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FINITY | Infinite Skill. Zero Limits.
 
-## Getting Started
+![Finity Logo](app/icon.png)
 
-First, run the development server:
+**Finity** is a cutting-edge web platform for a professional esports organization. Built with **Next.js**, **Tailwind CSS**, and **Framer Motion**, it delivers a premium, high-performance user experience designed to showcase the team's dominance, roster, and champion mentality.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   **Dynamic Visuals:** Immersive hero section with animated backgrounds, glowing effects, and a custom logo presentation.
+-   **Roster Showcase:** Interactive player cards displaying roles (Pos 1-4) with glassmorphism effects and hover animations.
+-   **Champion Mentality:** Dedicated sections highlighting the team's philosophy and strategic mastery in disciplines like *Magic Chess*.
+-   **Scrimmage & Contact:** Integrated call-to-actions for scrimmages and community engagement.
+-   **Responsive Design:** Fully optimized for seamless viewing on desktops, tablets, and mobile devices.
+-   **Modern Aesthetics:** beautiful dark mode UI with neon accents (Cyan & Purple), custom typography (Orbitron & Outfit), and micro-interactions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   **Framework:** [Next.js 14+](https://nextjs.org/) (App Router)
+-   **Language:** [TypeScript](https://www.typescriptlang.org/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **Animations:** [Framer Motion](https://www.framer.com/motion/)
+-   **Icons:** [Lucide React](https://lucide.dev/)
+-   **Fonts:** [Orbitron](https://fonts.google.com/specimen/Orbitron) (Headings) & [Outfit](https://fonts.google.com/specimen/Outfit) (Body)
 
-## Learn More
+## 🏁 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to set up the project locally:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  **Clone the repository:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    git clone https://github.com/your-username/finity-webfrontend.git
+    cd finity-webfrontend
+    ```
 
-## Deploy on Vercel
+2.  **Install dependencies:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3.  **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open your browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+
+## 📂 Project Structure
+
+-   `app/`: Main application routes, layouts, and global styles (`globals.css`).
+-   `components/`: Reusable UI components (Hero, Navbar, Roster, GameShowcase, etc.).
+-   `components/ui/`: Generic UI elements like Buttons.
+-   `public/`: Static assets (images, icons).
+
+## 🎨 Customization
+
+The project uses a custom Tailwind configuration defined in `tailwind.config.ts`.
+-   **Primary Color:** Neon Cyan (`#00F0FF`)
+-   **Secondary Color:** Neon Purple (`#7000FF`)
+-   **Background:** Deep Space Black (`#030305`)
+
+Fonts are configured in `app/layout.tsx` using `next/font/google`.
+
+---
+
+*Designed for Champions.*
