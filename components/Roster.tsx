@@ -1,32 +1,32 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { User, Crosshair, Shield, Zap, Target } from "lucide-react";
+import { User, Crosshair, Shield, Zap, Target, Wand2, Swords } from "lucide-react";
 
 const players = [
     {
         name: "Huxxy",
         role: "Pos 1",
         color: "from-cyan-500 to-blue-600",
-        icon: <Shield className="w-6 h-6" />
+        icon: <Wand2 className="w-6 h-6" /> // Mage
     },
     {
         name: "Kai",
         role: "Pos 2",
         color: "from-purple-500 to-pink-600",
-        icon: <Zap className="w-6 h-6" />
+        icon: <Crosshair className="w-6 h-6" /> // Archer
     },
     {
         name: "Azz",
         role: "Pos 3",
         color: "from-blue-500 to-indigo-600",
-        icon: <Crosshair className="w-6 h-6" />
+        icon: <Shield className="w-6 h-6" /> // Shield
     },
     {
         name: "Kabas",
         role: "Pos 4",
         color: "from-pink-500 to-rose-600",
-        icon: <Target className="w-6 h-6" />
+        icon: <Swords className="w-6 h-6" /> // Bruiser
     },
 ];
 
