@@ -94,9 +94,14 @@ export const GameShowcase = () => {
                                     </div>
                                 </div>
 
-                                <Button variant="outline" size="lg" className="w-fit" glow>
-                                    CONTACT US TO SCRIMMAGE
-                                </Button>
+                                import Link from "next/link"; // Ensure this is imported at the top if not present
+
+                                // ... inside the component
+                                <Link href="#contact">
+                                    <Button variant="outline" size="lg" className="w-fit" glow>
+                                        CONTACT US TO SCRIMMAGE
+                                    </Button>
+                                </Link>
                             </div>
                         </div>
                     </div>
