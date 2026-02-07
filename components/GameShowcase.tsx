@@ -57,7 +57,7 @@ export const GameShowcase = () => {
                         </div>
 
                         {/* Content Section */}
-                        <div className="p-8 md:p-12 lg:p-16 flex flex-col justify-center relative bg-gradient-to-b from-surface to-background lg:bg-none">
+                        <div id="master-strategy" className="p-8 md:p-12 lg:p-16 flex flex-col justify-center relative bg-gradient-to-b from-surface to-background lg:bg-none">
                             <div className="absolute top-0 right-0 p-10 opacity-10">
                                 <Crown className="w-64 h-64 text-white rotate-12" />
                             </div>
@@ -94,9 +94,11 @@ export const GameShowcase = () => {
                                     </div>
                                 </div>
 
-                                <Button variant="outline" size="lg" className="w-fit" glow>
-                                    CONTACT US TO SCRIMMAGE
-                                </Button>
+                                <a href="https://wa.me/601133224953" target="_blank" rel="noopener noreferrer">
+                                    <Button variant="outline" size="lg" className="w-fit" glow>
+                                        CONTACT US TO SCRIMMAGE
+                                    </Button>
+                                </a>
                             </div>
                         </div>
                     </div>

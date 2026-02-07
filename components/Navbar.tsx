@@ -13,7 +13,7 @@ const navLinks = [
     { name: "TEAM", href: "#team" },
     { name: "MATCHES", href: "#matches" },
     { name: "MEDIA", href: "#media" },
-    { name: "CONTACT", href: "#contact" },
+    { name: "CONTACT", href: "#master-strategy" },
 ];
 
 export const Navbar = () => {
@@ -62,9 +62,11 @@ export const Navbar = () => {
 
                 {/* CTA */}
                 <div className="hidden md:block">
-                    <Button variant="outline" size="sm" className="!px-8 border-secondary text-secondary hover:bg-secondary/20">
-                        COMMUNITY
-                    </Button>
+                    <Link href="#footer">
+                        <Button variant="outline" size="sm" className="!px-8 border-secondary text-secondary hover:bg-secondary/20">
+                            COMMUNITY
+                        </Button>
+                    </Link>
                 </div>
 
                 {/* Mobile Toggle */}
@@ -95,9 +97,11 @@ export const Navbar = () => {
                                 {link.name}
                             </Link>
                         ))}
-                        <Button variant="outline" className="w-full">
-                            COMMUNITY
-                        </Button>
+                        <Link href="#footer" onClick={() => setMobileMenuOpen(false)} className="w-full">
+                            <Button variant="outline" className="w-full">
+                                COMMUNITY
+                            </Button>
+                        </Link>
                     </motion.div>
                 )}
             </AnimatePresence>
